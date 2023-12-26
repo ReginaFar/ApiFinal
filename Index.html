@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Рандомное фото</title>
+    </head>
+    <style>
+        .box{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        .photo-container{
+            width:70%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top:50px;
+            margin-bottom: 10px;
+        }
+        .photo-container img {
+            width: 80%;
+            height: auto;
+        }
+    </style>
+    <script src="script.js" defer></script>
+    <body>
+        <div class="box">
+            <div class="photo-container">
+                <img id="photo" src="">
+                <p class="author-name"></p>
+            </div>
+            <button class="button-like">Лайк</button>
+        </div>
+    </body>
+</html>
+
+
